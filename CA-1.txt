@@ -1,0 +1,50 @@
+Name: Cian Cripps
+Student Number: 121474322
+
+that explains how the code in 
+the CA is meant to function 
+
+### CA-1 General Explanation ###
+My CA-1 project is a simple weekly student budget that functions by interaction with the user.
+It's called by calling the budget class created in the classes file. 
+
+The code in the classes file splits into three main parts: Income, Expenses and Budget 
+
+# Income Part # 
+From here the code prompts the user to input the amount of income variables 
+they'd like to enter and the details of said incomes, including two prebuilt options: Wages and Grants and 
+a custom option which gives the user the option of entering their own income and customizing their own budget. 
+Entering Wages or Grants will create a subclass for either option and each income variable is entered through UserIncome child class 
+and is created through functionality of the parent class Income. Afterwards, showing the user their income details
+
+# Expenses Part # 
+The code prompts the user to input the amount of expense variables 
+they'd like to enter and the details of said expenses, including two prebuilt options: Fixed and Leisure and 
+a custom option which gives the user the option of entering their own income and customizing their own budget. 
+Entering Fixed or Leisure will create a subclass for either option and each income variable is entered through UserExpense child class 
+and is created through functionality of the parent class Expense. Afterwards, showing the user their expenditure details
+
+# Budget Part # 
+This part of the project combines both the income and expenses aspects of the project to find the result of the students spending and
+thus showcase to the user their result and amount of profit or loss
+
+### OOP Concept Explanation ### 
+- Classes 
+Throughout the project there are classes, primarily three main classes Income and Expenses, with their individual subclasses and the budget class
+- Class constructors 
+On the creation of every class
+- Abstraction
+With the use of private variables in the main parent classes 
+- Class property 
+On creation of the parent classes in the project
+- Encapsulation
+Through the use of parent and child classes and in general in the classes throughout the project
+- Parent / Child Classes / Inheritance 
+In both the income and expenses classes
+- Instance attribrutes 
+In the parent classes 
+- Args 
+In each child class
+- Polymorphism
+In the budget class that combines objects from seperate classes
+
